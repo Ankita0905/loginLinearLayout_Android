@@ -57,8 +57,9 @@
             android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
             android:text="Sign Up"
-            app:cornerRadius="16dp"/>
+            app:cornerRadius="16dp" />
 
         <Button
             android:id="@+id/button"
@@ -75,15 +76,17 @@
 
         <Button
             android:id="@+id/btnadd"
-            android:layout_height="wrap_content"
             android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
             android:layout_weight="1"
             android:text="ADD" />
 
         <Button
             android:id="@+id/btnsub"
-            android:layout_height="wrap_content"
             android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
             android:layout_weight="1"
             android:text="SUB" />
 
@@ -91,6 +94,7 @@
             android:id="@+id/btndiv"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
             android:layout_weight="2"
             android:text="Divide" />
         <Button
